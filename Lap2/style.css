@@ -1,0 +1,21 @@
+/* khai báo body */
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* khai báo các class thuộc tính */
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* khai báo thuộc tính các thẻ Type  */
+h2{
+    color: rgb(48, 179, 22);
+    font-size: 30px;
+}
+iframe{
+    padding: 20px;
+}
