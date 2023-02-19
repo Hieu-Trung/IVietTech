@@ -5,22 +5,52 @@ body{
 .navbar{
     background-color: black;
     display: flex;
-    justify-content: flex-start;
     flex-flow: row wrap;
-    color: #ffffff;
     list-style: none;
     margin: 0;
     padding: 0;
     position: fixed;
     width: 100%;
 }
-.navbar li {
+.navbar a {
     padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    color: white;
 }
-.navbar li:hover{
+.navbar a:hover{
     cursor: pointer;
     color: black;
     background-color: #cccccc;
+}
+.search{
+   right: 0; 
+   position: absolute
+}
+.search:hover{
+    background-color: #f44336!important;
+    color: white !important;
+}
+.dropdown-more{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    display: none;
+    margin: 48px 0 0 21px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.dropdown-more a{
+    color: black !important;
+    display: block;
+}
+.dropdown-more a:hover{
+    background-color: #cccccc;
+}
+.more:hover .dropdown-more{
+    display: block;
 }
 .banner img {
     width: 100%;
@@ -46,12 +76,115 @@ body{
 }
 .image{
     display: flex;
-    padding: 0 300px 0 300px;
+    padding: 0 300px 100px 300px;
 }
 .image1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0; 
+}
+.tour{
+    background-color: black;
+    margin: 0;
     padding: 0;
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tour h2 {
+    color: white;
+}
+.tour p {
+    color: rgb(170, 168, 168);
+}
+.tour ul{
+    background-color: #ffffff;
+    width: 60%;
+    border: 1px solid #dddddd;
+    list-style: none;
+    padding: 0;
+}
+.tour li{
+    border: 1px solid #dddddd;
+    padding: 15px;
+    color: #757575;
+}
+.tour span{
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 5px;
+}
+.buy-tour{
+    width: 60%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 100px 0;
+   
+}
+.buy-tour-one{
+    background-color: #ffffff;
+    padding: 0;
+    width: 31%;
+}
+.title-tour{
+    padding: 10px;
+}
+.title-tour button{
+    background-color: black;
+    color: #ffffff;
+    padding: 5px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact h2{
+    letter-spacing: 4px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    padding-top: 20px;
+}
+.detail-contact{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.detail-contact i{
+    padding-right: 15px;
+}
+.detail-contact span{
+    padding: 5px;
+}
+input{
+    padding: 7px;
+    margin-top: 5px;
+}
+.fill-contact button{
+    background-color: black;
+    color: white;
+    float: right;
+    margin-top: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.image-content{
+    margin-top: 50px;
+}
+.medium{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.medium i{
+    padding: 5px;
+    font-size: 25px;
 }
