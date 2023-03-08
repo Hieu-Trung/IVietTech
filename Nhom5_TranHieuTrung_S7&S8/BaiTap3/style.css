@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.header{
+    display: flex;
+}
+.list-item{
+    width: 20%;
+    background-color: rgb(245, 36, 36);
+}
+.list-item p{
+    margin: 10px;
+    color: #ffffff;
+}
+.list-item i{
+    margin-right: 10px;
+}
+.gif-item{
+    width: 80%;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+}
+.gif-item i{
+    color: red;
+    margin-left: 30px;
+}
+.gif-item a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.content{
+    display: flex;
+}
+.menu{
+    width: 20%;
+}
+.list-menu{
+    color: #ffffff;
+    background-color: rgb(247, 37, 37);
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid rgb(233, 231, 231);
+    cursor: pointer;
+}
+.menu ul li i{
+    padding-right: 15px;
+}
+.menu ul li:hover{
+    background-color: #f1f1f1;
+}
+.item-menu{
+    width: 80%;
+    border: 1px solid rgb(233, 231, 231);
+}
+.item-apple{
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.iphone-apple{
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone-apple b{
+    padding: 10px 0;
+    color: red;
+}
+.iphone-apple a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.hover-apple{
+    display: none;
+}
+.dropdown-apple:hover .hover-apple{
+    display: block;
+}
+.hover-mega{
+    display: none;
+}
+.dropdown-mega:hover .hover-mega{
+    display: block;
+}
+.hover-laptop{
+    display: none;
+}
+.dropdown-laptop:hover .hover-laptop{
+    display: block;
+}
+

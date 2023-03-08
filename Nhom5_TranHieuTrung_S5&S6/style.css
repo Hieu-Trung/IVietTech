@@ -5,18 +5,17 @@ body{
 }
 .header{
     border-bottom: 1px solid rgb(189, 129, 1) ;
-    margin: 10px;
+    margin: 1%;
 }
 .header img{
     float: left;
-    width: 100px;
+    max-width: 100px;
     height: 100px;
 }
 .title-header{
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
-    width: 85%;
+    padding-left: 3%;
 }
 .title-header>h2{
     color: rgb(245, 224, 36);
@@ -27,6 +26,16 @@ body{
 .content{
     margin: 10px;
     padding-bottom: 10px;
+}
+.title-content{
+    float: left;
+    width: 60%;
+    border-right: 1px solid rgb(189, 129, 1) ;
+    margin-bottom: 10px;
+    column-count: 2;
+}
+.month-content{
+    float: right;
 }
 .content-inf{
     width: 78%;
