@@ -45,6 +45,7 @@ body{
 .menu ul {
     padding: 0;
     margin: 0;
+    border-right: 1px solid rgb(233, 231, 231);
 }
 .menu ul li{
     list-style: none;
@@ -100,5 +101,9 @@ body{
 }
 .dropdown-laptop:hover .hover-laptop{
     display: block;
+}
+.iphone-apple i{
+    font-size: 10px;
+    margin-left: 5px;
 }
 

@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    border-bottom: 1px solid rgb(189, 129, 1) ;
+    margin: 1%;
+    display: flex;
+}
+.header img{
+    
+    max-width: 100px;
+    height: 100px;
+}
+.title-header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+}
+.title-header>h2{
+    color: rgb(245, 224, 36);
+}
+.title-header>p{
+    color: rgb(15, 116, 5);
+}
+.content{
+    margin: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.title-content{
+    width: 60%;
+    border-right: 1px solid rgb(189, 129, 1) ;
+    margin-bottom: 10px;
+    column-count: 2;
+}
+.content-inf{
+    width: 78%;
+    margin-top: 10px;
+}
+
+.month-content{
+    width: 35%;
+}
+.month-content a, h2{
+    margin-left: 10px;
+}
