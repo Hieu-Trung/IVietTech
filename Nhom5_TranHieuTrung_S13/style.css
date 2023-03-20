@@ -25,6 +25,12 @@ input[type = email]{
 input[type = password]{
     width: 100%;
 }
+input[type = text]{
+    width: 100%;
+}
+input[type = date]{
+    width: 100%;
+}
 select{
     width: 100%;
 }
@@ -40,4 +46,26 @@ select{
 .section-style div{
     border-top: 1px solid rgb(209, 209, 209);
     width: 91%;
+}
+.text-area{
+    width: 100%;
+}
+.text-area textarea{
+    width: 100%;
+}
+.checkbox{
+    display: flex;
+    margin-top: 10px;
+}
+.btn-submit{
+    width: 100%;
+    border-top: 1px solid #e0e0e0
+}
+.btn-submit button{
+    margin: 20px 0;
+    background-color: rgb(41, 111, 240);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px
 }
