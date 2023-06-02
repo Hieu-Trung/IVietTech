@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+}
+.form-validation{
+    margin: 20px;
+}
+label{
+    display: block;
+    padding: 10px 0px;
+}
+input[type = email]{
+    width: 100%;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+}
+.password div{
+    width: 49%;
+}
+input[type = password]{
+    width: 100%;
+}
+input[type = text]{
+    width: 100%;
+}
+input[type = date]{
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+.section-style{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.section-style label{
+    color: blue;
+    width: 9%;
+}
+.section-style div{
+    border-top: 1px solid rgb(209, 209, 209);
+    width: 91%;
+}
+.text-area{
+    width: 100%;
+}
+.text-area textarea{
+    width: 100%;
+}
+.checkbox{
+    display: flex;
+    margin-top: 10px;
+}
+.btn-submit{
+    width: 100%;
+    border-top: 1px solid #e0e0e0
+}
+.btn-submit button{
+    margin: 20px 0;
+    background-color: rgb(41, 111, 240);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px
+}

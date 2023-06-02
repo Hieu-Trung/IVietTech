@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        span, input, button{
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column;">
+        <span>ID:</span>
+        <input type="text" id="ID" placeholder="nhap ID" required/>
+        <p id="validating-id"></p>
+        <span>Name:</span>
+        <input type="text" id="Name" placeholder="nhap Name" />
+        <span>Birthday:</span>
+        <input type="date" id="Birthday" placeholder="nhap Birthday" />
+        <span>Phone number:</span>
+        <input type="number" id="phoneNumber" placeholder="nhap Phone number" />
+        <button type="submit" onclick="validating()">submit</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Birthday</th>
+                <th>Phone number</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+    </table>
+    <script src="./index.js">
+    </script>
+</body>
+
+</html>
